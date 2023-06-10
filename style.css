@@ -1,0 +1,200 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+ }
+ 
+ .wrapper-main {
+   width: 100%;
+   padding: 100px 0;
+   margin: 0 auto;
+
+ }
+ 
+
+ 
+ @media (max-width: 600px) {
+   .wrapper-main {
+      width: 100%;
+    
+    
+   }
+ }
+ 
+ 
+ 
+ 
+ @media (min-width: 601px) {
+   .wrapper-main {
+      width: 100%;
+  
+   }
+ }
+    
+ 
+ 
+ @media (min-width: 768px) {
+   .wrapper-main {
+      width: 100%;
+
+   }
+ }
+ 
+ 
+ @media (min-width: 992px) {
+   .wrapper-main {
+      width: 100%;
+    
+   }
+ }
+ @media (min-width: 1200px) {
+   .wrapper-main {
+      width: 100%;
+
+   }
+ }
+ 
+
+ header {
+   background-color: #f1f1f1; 
+   text-align: center;  
+   padding: 20px; 
+ }
+ 
+ img {
+   max-width: 100%;
+ }
+ 
+ h1 {
+   margin-top: 10px;
+ }
+ 
+ 
+
+
+
+
+ .wrapper-main {
+   position: relative;
+ }
+ 
+ #sidebar {
+   position: fixed;
+   top: 0;
+   left: -300px; /* Initially hide the sidebar */
+   width: 250px;
+   height: 100vh;
+   background-color: #85d31f;
+   color: #fff;
+   padding: 20px;
+   transition: left 0.3s ease-in-out;
+ }
+ 
+ #sidebar ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ #sidebar ul li {
+   margin-bottom: 10px;
+ }
+ 
+ #sidebar ul li a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 16px;
+ }
+ 
+ #hamburgerMenu,
+ #closeIcon {
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   cursor: pointer;
+   z-index: 1;
+ }
+ 
+ .line {
+   display: block;
+   width: 30px;
+   height: 2px;
+   background-color: #333;
+   margin-bottom: 6px;
+ }
+ 
+ #closeIcon {
+   cursor: pointer;
+   font-size: 20px;
+   color: red;
+ }
+ 
+ #closeIcon:hover {
+   text-decoration: underline;
+ }
+ 
+ 
+ .open  {
+   display: none; 
+ }
+
+ 
+
+
+ .container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 20px;
+ }
+ 
+
+
+ .image-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+   grid-gap: 20px; /* Spacing between grid items */
+ }
+ 
+ .image {
+   /* Additional styles for grid items */
+ }
+ 
+ .image img {
+   width: 100%;
+   height: auto;
+ }
+
+.vm-resize {
+   width:100px;
+   height:auto;
+
+}
+ 
+.intro {
+   display: flex;
+ }
+ 
+ p {
+   text-align: center;
+   font-size: 30px;
+ }
+ 
+ .image-row {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .image-row img {
+   width: 500px; /* Adjust the width as needed */
+   height: auto; /* Maintain aspect ratio */
+   margin: 5px; /* Add margin between images */
+ }
+
+ .explore-with-me {
+   font-size: 30px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   unicolor: red
+ }
+ 
