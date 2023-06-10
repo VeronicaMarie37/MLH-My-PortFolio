@@ -155,9 +155,6 @@ body {
    grid-gap: 20px; /* Spacing between grid items */
  }
  
- .image {
-   /* Additional styles for grid items */
- }
  
  .image img {
    width: 100%;
@@ -195,6 +192,5 @@ body {
    font-size: 30px;
    font-family: Georgia, 'Times New Roman', Times, serif;
    font-weight: bold;
-   unicolor: red
  }
  
